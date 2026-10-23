@@ -27,23 +27,25 @@ This project is an independent implementation inspired by publicly observable pr
 
 ## Screenshots
 
-Add screenshots to this section before publishing. Suggested images are the dashboard, agent configuration, knowledge sources, and chat playground.
-
 ### Dashboard
 
-Screenshot placeholder — add the dashboard image here.
+<img width="1803" height="926" alt="image" src="https://github.com/user-attachments/assets/9f540233-9551-4df0-947f-9cdec3925293" />
+
 
 ### Agent configuration
 
-Screenshot placeholder — add the agent configuration image here.
+<img width="1803" height="926" alt="image" src="https://github.com/user-attachments/assets/4a2684ec-a58a-4e16-bd79-9283aa8d9bb3" />
+
 
 ### Knowledge sources
 
-Screenshot placeholder — add the knowledge sources image here.
+<img width="1803" height="926" alt="image" src="https://github.com/user-attachments/assets/c36a7a63-14c2-4476-8ee5-b84745fe6088" />
+
 
 ### Chat playground
 
-Screenshot placeholder — add the chat playground image here.
+<img width="1803" height="926" alt="image" src="https://github.com/user-attachments/assets/d36abc76-65e7-44d6-bd83-9e9f4ef1617c" />
+
 
 ## Run with Docker Compose
 
