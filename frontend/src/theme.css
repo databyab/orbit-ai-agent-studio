@@ -1,0 +1,97 @@
+:root {
+  color: #151a17;
+  background: #f7f9f7;
+  accent-color: #087447;
+}
+
+body { background: #f7f9f7; color: #151a17; }
+.sidebar, .topbar, .workspace-switch, .profile, .agent-card, .new-agent-card,
+.activity-list, .panel, .agent-list-panel, .agent-editor, .stat-card,
+.knowledge-stats > div, .modal, .secondary-btn, .choice, .field,
+.search-box, .chat-composer { background-color: #fff; }
+.sidebar, .topbar, .workspace-switch, .stat-card, .agent-card, .new-agent-card,
+.activity-list, .panel, .agent-list-panel, .agent-editor, .knowledge-stats > div,
+.workspace-switch, .field, .search-box, .chat-composer, .secondary-btn,
+.choice, .conversation-row, .source-row, .editor-footer, .tabs,
+.source-tabs, .source-table-head, .chat-header, .profile, .activity-row,
+.table-footer, .step-heading { border-color: #e1e7e2; }
+
+.brand-mark, .primary-btn, .send-btn, .play-btn,
+.agent-card-actions .play-btn { background: #087447; color: #fff; }
+.primary-btn { border-color: #087447; box-shadow: none; }
+.primary-btn:hover, .send-btn:hover, .play-btn:hover { background: #065f3b; }
+.brand-dot, .text-btn, .plan-card button, .right-value,
+.tabs button.selected, .source-tabs button.selected { color: #087447; }
+.tabs button.selected, .source-tabs button.selected { border-color: #087447; }
+
+.nav-item { color: #59645d; }
+.nav-item:hover, .icon-btn:hover, .agent-list-item:hover { background: #f1f6f2; color: #17231c; }
+.nav-item.active, .agent-list-item.selected { background: #e8f3ec; color: #075f39; }
+.nav-item.active { font-weight: 700; }
+.nav-count { border-color: #d5e5da; color: #286345; }
+.workspace-avatar, .profile-avatar, .plan-icon, .stat-icon, .agent-icon,
+.activity-icon, .source-file-icon, .chat-avatar, .step-number,
+.visibility-icon, .modal-icon, .plus-round, .visitor-avatar {
+  background: #e8f3ec;
+  color: #08663e;
+  border-color: #d5e5da;
+}
+.profile-avatar { background: #087447; color: #fff; }
+.plan-card, .info-panel, .choice.selected, .visibility-box,
+.status-pill.private, .status-pill.synced, .status-pill.syncing, .status-pill.failed,
+.visibility.private, .suggestion-row button, .mini-chat-title {
+  background: #f0f6f2;
+  border-color: #dce9df;
+  color: #28583d;
+}
+.plan-card { border-left: 3px solid #087447; }
+.visibility.public, .status-pill.synced, .status-pill.synced > span,
+.status-pill.syncing, .status-pill.failed { color: #17633e; }
+.status-pill.synced > span, .status-pill.syncing > span, .status-pill.failed > span,
+.api-status.online span, .live-dot { background: #16824f; }
+.status-pill.private > span { background: #59645d; }
+.visibility.private { color: #28583d; }
+.choice.selected { border-color: #85b99a; }
+.field:focus, .search-box:focus-within, .input-with-icon:focus-within,
+.chat-composer:focus-within { border-color: #4a9b6c; box-shadow: 0 0 0 3px #16824f18; }
+.range { accent-color: #087447; }
+.subtle-btn { color: #075f39; background: #e8f3ec; }
+.knowledge-stats > div { color: #087447; }
+.chat-line.user .bubble { background: #087447; color: #fff; }
+.suggestion-row button { border-color: #dce9df; color: #28583d; }
+.suggestion-row button:hover { background: #e8f3ec; }
+.typing i { background: #16824f; }
+.code-block { background: #151a17; }
+.code-block pre { color: #edf6ef; }
+.code-header { background: #202723; color: #edf6ef; }
+.code-header button { color: #edf6ef; }
+.code-dot, .chart-legend i, .topic-track i, .mini-site-header div { background: #16824f; }
+.mini-chat-title { color: #075f39; }
+.mini-chat-input svg, .side-card h3 svg, .modal-note svg { color: #087447; }
+.upload-zone { background: #f8fbf8; color: #286345 !important; border-color: #b7d2c0; }
+.empty-icon { color: #087447; background: #e8f3ec; }
+.bar { background: linear-gradient(180deg, #42a36b, #087447); }
+.topic-track { background: #e7eee9; }
+.chart-panel .bar-chart { border-color: #dfe7e1; }
+.check-item > span.checked { border-color: #16824f; background: #e8f3ec; color: #087447; }
+.modal-backdrop { background: #111a1470; }
+.toast { background: #151a17; color: #fff; }
+.toast > svg, .modal-note svg { color: #55ad78; }
+.wave { display: none; }
+
+.eyebrow, .nav-label, .source-table-head, .preview-top { color: #68736b; }
+.page-heading h1, .section-heading h2, .panel-heading h2,
+.agent-card h3, .editor-title h2, .modal h2 { color: #151a17; }
+.page-heading p, .section-heading p, .panel-heading p,
+.plan-card p, .info-panel p, .activity-copy span, .activity-time,
+.workspace-switch small, .profile small, .editor-title p,
+.field-hint, .chat-header small, .chat-disclaimer { color: #68736b; }
+.status-pill.failed, .status-pill.failed > span, .conversation-status.escalated,
+.danger-hover:hover { color: #414a44; }
+.status-pill.failed > span, .status-pill.syncing > span { background: #68736b; }
+.danger-hover:hover { background: #edf1ee; }
+
+@media (max-width: 700px) {
+  .main-area { background: #f7f9f7; }
+  .sidebar { background: #fff; }
+}

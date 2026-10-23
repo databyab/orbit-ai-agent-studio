@@ -1,0 +1,27 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Dependencies and generated output
+**/node_modules/
+.venv/
+venv/
+**/dist/
+**/build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+*.log
+npm-debug.log*
+
+# Local and unrelated files
+.DS_Store
+Thumbs.db
+/rea-repo/
+/evidence/
+/reports/
